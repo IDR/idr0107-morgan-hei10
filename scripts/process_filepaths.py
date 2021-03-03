@@ -21,7 +21,7 @@ for entry in entries:
         if filename.startswith("Composite"):
             fpaths_out.write(f"Dataset:name:{dataset}\t{basedir}/{entry}\t{image}\n")
         elif filename.startswith("Path"):
-            fpaths_out.write(f"Dataset:name:{dataset}) masks\t{basedir}/{entry}\t{image}_{filename}\n")
+            fpaths_out.write(f"Dataset:name:{dataset} masks\t{basedir}/{entry}\t{image}_{filename}\n")
         else:
             print(f"Unusual entry: {entry}")
             fpaths_out.write(f"Dataset:name:{dataset}\t{basedir}/{entry}\t{filename}\n")
