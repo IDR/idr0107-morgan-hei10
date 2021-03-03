@@ -16,7 +16,7 @@ from omero.rtypes import (
 PROJECT = "idr0107-morgan-hei10/experimentA"
 RGBA = (255, 255, 255, 128)
 DELETE_ROIS = True
-DRYRUN = True
+DRYRUN = False
 
 
 def mask_from_binary_image(binim, rgba=None, z=None, c=None, t=None, text=None):
@@ -91,7 +91,7 @@ def get_image(conn, mask_image):
         result = conn.getObject('Image', attributes={'name': name})
         return result
     except Exception as e:
-        print("Could not find {} for {}".format(name, mask_image.name))
+        print("Could not find target image {} for {}".format(name, mask_image.name))
         return None
 
 
@@ -138,14 +138,15 @@ def main(conn):
     deleted = []
     for mask_im in get_mask_images(conn):
         im = get_image(conn, mask_im)
-        print("Processing {} - {}".format(mask_im.name, im.name))
-        if DELETE_ROIS and not DRYRUN and im.id not in deleted:
-            delete_rois(conn, im)
-            deleted.append(im.id)
-        roi = create_roi(mask_im)
-        if not DRYRUN and roi:
-            print("Save Masks")
-            save_roi(conn, im, roi)
+        if im:
+            print("Processing {} - {}".format(mask_im.name, im.name))
+            if DELETE_ROIS and not DRYRUN and im.id not in deleted:
+                delete_rois(conn, im)
+                deleted.append(im.id)
+            roi = create_roi(mask_im)
+            if not DRYRUN and roi:
+                print("Save Masks")
+                save_roi(conn, im, roi)
 
 
 if __name__ == '__main__':
