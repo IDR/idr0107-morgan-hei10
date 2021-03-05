@@ -80,18 +80,22 @@ def get_mask_images(conn):
     project = conn.getObject('Project', attributes={'name': PROJECT})
     for dataset in project.listChildren():
         for image in dataset.listChildren():
-            match = re.match(".*_Path\d.tif", image.name)
+            match = re.match(".*_Path\d+.tif", image.name)
             if match:
-                yield image
+                yield (dataset.name, image)
 
 
-def get_image(conn, mask_image):
+def get_image(conn, ds_name, mask_image):
+    ds_name = ds_name.replace(" masks", "")
     name = re.sub("_Path\d.tif", "", mask_image.name)
     try:
-        result = conn.getObject('Image', attributes={'name': name})
-        return result
-    except Exception as e:
+        ds = conn.getObjects('Dataset', attributes={'name': ds_name}).__next__()
+        for image in ds.listChildren():
+            if image.name == name:
+                return image
         print("Could not find target image {} for {}".format(name, mask_image.name))
+        return None
+    except Exception as e:
         return None
 
 
@@ -136,8 +140,8 @@ def create_roi(seg_img):
 
 def main(conn):
     deleted = []
-    for mask_im in get_mask_images(conn):
-        im = get_image(conn, mask_im)
+    for (ds_name, mask_im) in get_mask_images(conn):
+        im = get_image(conn, ds_name, mask_im)
         if im:
             print("Processing {} - {}".format(mask_im.name, im.name))
             if DELETE_ROIS and not DRYRUN and im.id not in deleted:
