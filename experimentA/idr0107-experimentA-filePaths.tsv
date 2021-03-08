@@ -249,12 +249,12 @@ Dataset:name:hei10 +- masks	/uod/idr/filesets/idr0107-morgan-hei10/20210222-ftp/
 Dataset:name:hei10 +- masks	/uod/idr/filesets/idr0107-morgan-hei10/20210222-ftp/hei10 +-/hei10+-_2.8.19_plant22_slide1_image6/Path3.tif	plant22_slide1_image6_Path3.tif
 Dataset:name:hei10 +- masks	/uod/idr/filesets/idr0107-morgan-hei10/20210222-ftp/hei10 +-/hei10+-_2.8.19_plant22_slide1_image6/Path4.tif	plant22_slide1_image6_Path4.tif
 Dataset:name:hei10 +- masks	/uod/idr/filesets/idr0107-morgan-hei10/20210222-ftp/hei10 +-/hei10+-_2.8.19_plant22_slide1_image6/Path5.tif	plant22_slide1_image6_Path5.tif
-Dataset:name:hei10 +-	/uod/idr/filesets/idr0107-morgan-hei10/20210222-ftp/hei10 +-/hei10+-_2.8.19_plant22_slide1_image7/Composite.tif	plant22_slide1_image7
-Dataset:name:hei10 +- masks	/uod/idr/filesets/idr0107-morgan-hei10/20210222-ftp/hei10 +-/hei10+-_2.8.19_plant22_slide1_image7/Path1.tif	plant22_slide1_image7_Path1.tif
-Dataset:name:hei10 +- masks	/uod/idr/filesets/idr0107-morgan-hei10/20210222-ftp/hei10 +-/hei10+-_2.8.19_plant22_slide1_image7/Path2.tif	plant22_slide1_image7_Path2.tif
-Dataset:name:hei10 +- masks	/uod/idr/filesets/idr0107-morgan-hei10/20210222-ftp/hei10 +-/hei10+-_2.8.19_plant22_slide1_image7/Path3.tif	plant22_slide1_image7_Path3.tif
-Dataset:name:hei10 +- masks	/uod/idr/filesets/idr0107-morgan-hei10/20210222-ftp/hei10 +-/hei10+-_2.8.19_plant22_slide1_image7/Path4.tif	plant22_slide1_image7_Path4.tif
-Dataset:name:hei10 +- masks	/uod/idr/filesets/idr0107-morgan-hei10/20210222-ftp/hei10 +-/hei10+-_2.8.19_plant22_slide1_image7/Path5.tif	plant22_slide1_image7_Path5.tif
+Dataset:name:hei10 +-	/uod/idr/filesets/idr0107-morgan-hei10/20210305-ftp/hei10 +-/hei10+-_2.8.19_plant22_slide1_image7/Composite.tif	plant22_slide1_image7
+Dataset:name:hei10 +- masks	/uod/idr/filesets/idr0107-morgan-hei10/20210305-ftp/hei10 +-/hei10+-_2.8.19_plant22_slide1_image7/Path1.tif	plant22_slide1_image7_Path1.tif
+Dataset:name:hei10 +- masks	/uod/idr/filesets/idr0107-morgan-hei10/20210305-ftp/hei10 +-/hei10+-_2.8.19_plant22_slide1_image7/Path2.tif	plant22_slide1_image7_Path2.tif
+Dataset:name:hei10 +- masks	/uod/idr/filesets/idr0107-morgan-hei10/20210305-ftp/hei10 +-/hei10+-_2.8.19_plant22_slide1_image7/Path3.tif	plant22_slide1_image7_Path3.tif
+Dataset:name:hei10 +- masks	/uod/idr/filesets/idr0107-morgan-hei10/20210305-ftp/hei10 +-/hei10+-_2.8.19_plant22_slide1_image7/Path4.tif	plant22_slide1_image7_Path4.tif
+Dataset:name:hei10 +- masks	/uod/idr/filesets/idr0107-morgan-hei10/20210305-ftp/hei10 +-/hei10+-_2.8.19_plant22_slide1_image7/Path5.tif	plant22_slide1_image7_Path5.tif
 Dataset:name:hei10 +-	/uod/idr/filesets/idr0107-morgan-hei10/20210222-ftp/hei10 +-/hei10+-_2.8.19_plant22_slide1_image9/Composite.tif	plant22_slide1_image9
 Dataset:name:hei10 +- masks	/uod/idr/filesets/idr0107-morgan-hei10/20210222-ftp/hei10 +-/hei10+-_2.8.19_plant22_slide1_image9/Path1.tif	plant22_slide1_image9_Path1.tif
 Dataset:name:hei10 +- masks	/uod/idr/filesets/idr0107-morgan-hei10/20210222-ftp/hei10 +-/hei10+-_2.8.19_plant22_slide1_image9/Path2.tif	plant22_slide1_image9_Path2.tif
@@ -350,12 +350,12 @@ Dataset:name:hei10 +- masks	/uod/idr/filesets/idr0107-morgan-hei10/20210222-ftp/
 Dataset:name:hei10 +- masks	/uod/idr/filesets/idr0107-morgan-hei10/20210222-ftp/hei10 +-/hei10+-_25.2.20_plant2_slide1_image7/Path3.tif	plant2_slide1_image7_Path3.tif
 Dataset:name:hei10 +- masks	/uod/idr/filesets/idr0107-morgan-hei10/20210222-ftp/hei10 +-/hei10+-_25.2.20_plant2_slide1_image7/Path4.tif	plant2_slide1_image7_Path4.tif
 Dataset:name:hei10 +- masks	/uod/idr/filesets/idr0107-morgan-hei10/20210222-ftp/hei10 +-/hei10+-_25.2.20_plant2_slide1_image7/Path5.tif	plant2_slide1_image7_Path5.tif
-Dataset:name:hei10 +-	/uod/idr/filesets/idr0107-morgan-hei10/20210222-ftp/hei10 +-/hei10+-_25.2.20_plant2_slide1_image8/Composite.tif	plant2_slide1_image8
-Dataset:name:hei10 +- masks	/uod/idr/filesets/idr0107-morgan-hei10/20210222-ftp/hei10 +-/hei10+-_25.2.20_plant2_slide1_image8/Path1.tif	plant2_slide1_image8_Path1.tif
-Dataset:name:hei10 +- masks	/uod/idr/filesets/idr0107-morgan-hei10/20210222-ftp/hei10 +-/hei10+-_25.2.20_plant2_slide1_image8/Path2.tif	plant2_slide1_image8_Path2.tif
-Dataset:name:hei10 +- masks	/uod/idr/filesets/idr0107-morgan-hei10/20210222-ftp/hei10 +-/hei10+-_25.2.20_plant2_slide1_image8/Path3.tif	plant2_slide1_image8_Path3.tif
-Dataset:name:hei10 +- masks	/uod/idr/filesets/idr0107-morgan-hei10/20210222-ftp/hei10 +-/hei10+-_25.2.20_plant2_slide1_image8/Path4.tif	plant2_slide1_image8_Path4.tif
-Dataset:name:hei10 +- masks	/uod/idr/filesets/idr0107-morgan-hei10/20210222-ftp/hei10 +-/hei10+-_25.2.20_plant2_slide1_image8/Path5.tif	plant2_slide1_image8_Path5.tif
+Dataset:name:hei10 +-	/uod/idr/filesets/idr0107-morgan-hei10/20210305-ftp/hei10 +-/hei10+-_25.2.20_plant2_slide1_image8/Composite.tif	plant2_slide1_image8
+Dataset:name:hei10 +- masks	/uod/idr/filesets/idr0107-morgan-hei10/20210305-ftp/hei10 +-/hei10+-_25.2.20_plant2_slide1_image8/Path1.tif	plant2_slide1_image8_Path1.tif
+Dataset:name:hei10 +- masks	/uod/idr/filesets/idr0107-morgan-hei10/20210305-ftp/hei10 +-/hei10+-_25.2.20_plant2_slide1_image8/Path2.tif	plant2_slide1_image8_Path2.tif
+Dataset:name:hei10 +- masks	/uod/idr/filesets/idr0107-morgan-hei10/20210305-ftp/hei10 +-/hei10+-_25.2.20_plant2_slide1_image8/Path3.tif	plant2_slide1_image8_Path3.tif
+Dataset:name:hei10 +- masks	/uod/idr/filesets/idr0107-morgan-hei10/20210305-ftp/hei10 +-/hei10+-_25.2.20_plant2_slide1_image8/Path4.tif	plant2_slide1_image8_Path4.tif
+Dataset:name:hei10 +- masks	/uod/idr/filesets/idr0107-morgan-hei10/20210305-ftp/hei10 +-/hei10+-_25.2.20_plant2_slide1_image8/Path5.tif	plant2_slide1_image8_Path5.tif
 Dataset:name:hei10 +-	/uod/idr/filesets/idr0107-morgan-hei10/20210222-ftp/hei10 +-/hei10+-_25.2.20_plant2_slide1_image9/Composite.tif	plant2_slide1_image9
 Dataset:name:hei10 +- masks	/uod/idr/filesets/idr0107-morgan-hei10/20210222-ftp/hei10 +-/hei10+-_25.2.20_plant2_slide1_image9/Path1.tif	plant2_slide1_image9_Path1.tif
 Dataset:name:hei10 +- masks	/uod/idr/filesets/idr0107-morgan-hei10/20210222-ftp/hei10 +-/hei10+-_25.2.20_plant2_slide1_image9/Path2.tif	plant2_slide1_image9_Path2.tif
@@ -737,12 +737,12 @@ Dataset:name:HEI10 OX masks	/uod/idr/filesets/idr0107-morgan-hei10/20210222-ftp/
 Dataset:name:HEI10 OX masks	/uod/idr/filesets/idr0107-morgan-hei10/20210222-ftp/HEI10 OX/HEI10OXC2_25.2.20_plant2_slide1_image13/Path3.tif	plant2_slide1_image13_Path3.tif
 Dataset:name:HEI10 OX masks	/uod/idr/filesets/idr0107-morgan-hei10/20210222-ftp/HEI10 OX/HEI10OXC2_25.2.20_plant2_slide1_image13/Path4.tif	plant2_slide1_image13_Path4.tif
 Dataset:name:HEI10 OX masks	/uod/idr/filesets/idr0107-morgan-hei10/20210222-ftp/HEI10 OX/HEI10OXC2_25.2.20_plant2_slide1_image13/Path5.tif	plant2_slide1_image13_Path5.tif
-Dataset:name:HEI10 OX	/uod/idr/filesets/idr0107-morgan-hei10/20210222-ftp/HEI10 OX/HEI10OXC2_25.2.20_plant2_slide1_image18/Composite.tif	plant2_slide1_image18
-Dataset:name:HEI10 OX masks	/uod/idr/filesets/idr0107-morgan-hei10/20210222-ftp/HEI10 OX/HEI10OXC2_25.2.20_plant2_slide1_image18/Path1.tif	plant2_slide1_image18_Path1.tif
-Dataset:name:HEI10 OX masks	/uod/idr/filesets/idr0107-morgan-hei10/20210222-ftp/HEI10 OX/HEI10OXC2_25.2.20_plant2_slide1_image18/Path2.tif	plant2_slide1_image18_Path2.tif
-Dataset:name:HEI10 OX masks	/uod/idr/filesets/idr0107-morgan-hei10/20210222-ftp/HEI10 OX/HEI10OXC2_25.2.20_plant2_slide1_image18/Path3.tif	plant2_slide1_image18_Path3.tif
-Dataset:name:HEI10 OX masks	/uod/idr/filesets/idr0107-morgan-hei10/20210222-ftp/HEI10 OX/HEI10OXC2_25.2.20_plant2_slide1_image18/Path4.tif	plant2_slide1_image18_Path4.tif
-Dataset:name:HEI10 OX masks	/uod/idr/filesets/idr0107-morgan-hei10/20210222-ftp/HEI10 OX/HEI10OXC2_25.2.20_plant2_slide1_image18/Path5.tif	plant2_slide1_image18_Path5.tif
+Dataset:name:HEI10 OX	/uod/idr/filesets/idr0107-morgan-hei10/20210305-ftp/HEI10 OX/HEI10OXC2_25.2.20_plant2_slide1_image18/Composite.tif	plant2_slide1_image18
+Dataset:name:HEI10 OX masks	/uod/idr/filesets/idr0107-morgan-hei10/20210305-ftp/HEI10 OX/HEI10OXC2_25.2.20_plant2_slide1_image18/Path1.tif	plant2_slide1_image18_Path1.tif
+Dataset:name:HEI10 OX masks	/uod/idr/filesets/idr0107-morgan-hei10/20210305-ftp/HEI10 OX/HEI10OXC2_25.2.20_plant2_slide1_image18/Path2.tif	plant2_slide1_image18_Path2.tif
+Dataset:name:HEI10 OX masks	/uod/idr/filesets/idr0107-morgan-hei10/20210305-ftp/HEI10 OX/HEI10OXC2_25.2.20_plant2_slide1_image18/Path3.tif	plant2_slide1_image18_Path3.tif
+Dataset:name:HEI10 OX masks	/uod/idr/filesets/idr0107-morgan-hei10/20210305-ftp/HEI10 OX/HEI10OXC2_25.2.20_plant2_slide1_image18/Path4.tif	plant2_slide1_image18_Path4.tif
+Dataset:name:HEI10 OX masks	/uod/idr/filesets/idr0107-morgan-hei10/20210305-ftp/HEI10 OX/HEI10OXC2_25.2.20_plant2_slide1_image18/Path5.tif	plant2_slide1_image18_Path5.tif
 Dataset:name:HEI10 OX	/uod/idr/filesets/idr0107-morgan-hei10/20210222-ftp/HEI10 OX/HEI10OXC2_25.2.20_plant2_slide1_image6/Composite.tif	plant2_slide1_image6
 Dataset:name:HEI10 OX masks	/uod/idr/filesets/idr0107-morgan-hei10/20210222-ftp/HEI10 OX/HEI10OXC2_25.2.20_plant2_slide1_image6/Path1.tif	plant2_slide1_image6_Path1.tif
 Dataset:name:HEI10 OX masks	/uod/idr/filesets/idr0107-morgan-hei10/20210222-ftp/HEI10 OX/HEI10OXC2_25.2.20_plant2_slide1_image6/Path2.tif	plant2_slide1_image6_Path2.tif
