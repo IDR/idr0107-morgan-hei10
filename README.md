@@ -7,7 +7,7 @@
 | :----: |:----:|
 | Images| 2hr |
 | Rendering| 15min |
-| Rois| -- |
+| Rois| 15min |
 | Annotations | -- |
 
 ### idr-next
