@@ -6,7 +6,8 @@
 | Task | Duration |
 | :----: |:----:|
 | Images| 2hr |
-| Rendering| -- |
+| Rendering| 15min |
+| Rois| -- |
 | Annotations | -- |
 
 ### idr-next
@@ -14,4 +15,5 @@
 | :----: |:----:|
 | Images| -- | 
 | Rendering| -- |
+| Rois| -- |
 | Annotations | -- |
