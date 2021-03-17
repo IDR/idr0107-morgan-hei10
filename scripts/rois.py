@@ -86,7 +86,7 @@ def get_mask_images(conn):
 
 
 def get_image(conn, ds_name, mask_image):
-    ds_name = ds_name.replace(" masks", "")
+    ds_name = ds_name.replace(" (segmentation)", "")
     name = re.sub("_Path\d.tif", "", mask_image.name)
     try:
         ds = conn.getObjects('Dataset', attributes={'name': ds_name}).__next__()
