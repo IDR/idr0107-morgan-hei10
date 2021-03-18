@@ -1,0 +1,96 @@
+---
+name: idr0107-morgan-hei10/experimentA
+version: 1
+
+defaults:
+  include: no
+  type: string
+  includeclient: yes
+  visible: yes
+  omitempty: yes
+
+columns:
+
+  - name: Characteristics [Organ]
+    clientname: Organ
+    include: yes
+
+  - name: Characteristics [Cell Type]
+    clientname: Cell Type
+    include: yes
+
+  - name: Characteristics [Cell Cycle Stage]
+    clientname: Cell Cycle Stage
+    include: yes
+
+  - name: Experimental Condition [Antibody Target 1]
+    clientname: Antibody Target 1
+    include: yes
+
+  - name: Experimental Condition [Antibody Target 2]
+    clientname: Antibody Target 2
+    include: yes
+
+  - name: Comment [Image File Type]
+    clientname: Image File Type
+    include: yes
+
+
+  ######################################################################
+  # mapr groups
+  ######################################################################
+
+  - group:
+      namespace: openmicroscopy.org/mapr/organism
+      columns:
+        - name: Characteristics [Organism]
+          clientname: Organism
+          include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/gene
+      columns:
+        - name: Comment [Gene Identifier 1]
+          clientname: Gene Identifier
+          include: true
+          omitempty: false
+        - name: Comment [Gene Identifier 1]
+          clientname: Gene Identifier URL
+          clientvalue: >
+            http://www.ensembl.org/id/{{ value|urlencode }}
+          include: true
+        - name: Comment [Gene Symbol 1]
+          clientname: Gene Symbol
+          include: true
+          omitempty: false
+
+  - group:
+      namespace: openmicroscopy.org/mapr/gene
+      columns:
+        - name: Comment [Gene Identifier 2]
+          clientname: Gene Identifier
+          include: true
+          omitempty: false
+        - name: Comment [Gene Symbol 2]
+          clientname: Gene Symbol
+          include: true
+          omitempty: false
+
+  - group:
+      namespace: openmicroscopy.org/mapr/gene/supplementary
+      columns:
+      - name: Comment [Gene Annotation Comments]
+        clientname: Gene Annotation Comments
+        include: true
+
+
+advanced:
+  ignore_missing_primary_key: yes
+  primary_group_keys:
+    - namespace: openmicroscopy.org/mapr/organism
+      keys:
+        - Organism
+    - namespace: openmicroscopy.org/mapr/gene
+      keys:
+        - Gene Identifier
+        - Gene Symbol
