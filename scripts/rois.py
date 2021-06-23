@@ -14,7 +14,7 @@ from omero.rtypes import (
 )
 
 PROJECT = "idr0107-morgan-hei10/experimentA"
-RGBA = (255, 255, 255, 128)
+RGBA = (255, 255, 0, 128)
 DELETE_ROIS = True
 DRYRUN = False
 
