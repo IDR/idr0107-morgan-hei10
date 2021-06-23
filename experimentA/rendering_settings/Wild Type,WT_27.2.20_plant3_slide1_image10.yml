@@ -1,0 +1,30 @@
+---
+channels:
+    1:
+        active: true
+        color: FF0000
+        end: 50000.0
+        label: HEI10
+        max: 63418.0
+        min: 0.0
+        start: 5000.0
+    2:
+        active: true
+        color: 00FF00
+        end: 60000.0
+        label: ZYP1
+        max: 64082.0
+        min: 0.0
+        start: 8000.0
+    3:
+        active: true
+        color: 0000FF
+        end: 60000.0
+        label: DAPI
+        max: 63708.0
+        min: 0.0
+        start: 20000.0
+greyscale: false
+t: 1
+version: 2
+z: 27
