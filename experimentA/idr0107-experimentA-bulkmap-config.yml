@@ -57,7 +57,7 @@ columns:
         - name: Comment [Gene Identifier 1]
           clientname: Gene Identifier URL
           clientvalue: >
-            http://www.ensembl.org/id/{{ value|urlencode }}
+            https://plants.ensembl.org/Arabidopsis_thaliana/Gene/Summary?g={{ value|urlencode }}
           include: true
         - name: Comment [Gene Symbol 1]
           clientname: Gene Symbol
