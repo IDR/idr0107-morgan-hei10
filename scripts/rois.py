@@ -86,7 +86,7 @@ def get_mask_images(conn):
 
 
 def get_image(conn, ds_name, mask_image):
-    ds_name = ds_name.replace(" (segmentation)", "")
+    ds_name = ds_name.replace(" (paths)", "")
     name = re.sub("_Path\d.tif", "", mask_image.name)
     try:
         ds = conn.getObjects('Dataset', attributes={'name': ds_name}).__next__()
@@ -118,7 +118,7 @@ def delete_rois(conn, im):
 
 def create_roi(seg_img):
     text = None
-    match = re.search(".*_(Path\d).tif", seg_img.name, re.IGNORECASE)
+    match = re.search(".*_(Path\d+).tif", seg_img.name, re.IGNORECASE)
     if match:
         text = match.group(1)
     zct_list = []
